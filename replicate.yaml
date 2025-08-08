@@ -1,0 +1,12 @@
+# replicate.yaml
+name: goldira-ai-model
+description: AI model for gold price analysis and forecasting
+input_schema:
+  type: object
+  properties:
+    prompt:
+      type: string
+      description: Text prompt for analysis or forecast
+      default: "Analyze gold price trends for Q3 2025"
+output_schema:
+  type: string
